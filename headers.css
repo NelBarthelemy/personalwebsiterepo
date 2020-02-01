@@ -1,0 +1,46 @@
+
+#headings-div {
+    margin:auto;
+    position:fixed;
+    width: 88.5%;
+    height:80px;
+    /*background-color: orange;*/
+    top:30px;
+    padding:15px;
+    border-bottom:solid;
+}
+div#headings-div h1 {
+    height: 40px;
+}
+#name {
+    /*background-color: blue;*/
+    padding: 8px;
+    float: left;
+    font-family: 'Monotype Corsiva';
+    font-weight: bolder;
+    margin-left: 15px;
+}
+#header {
+    /*background-color: yellow;*/
+    font-family: 'Didact Gothic', sans-serif;
+    width: 40%;
+
+    text-align: right;
+    padding: 8px;
+    position: absolute;
+    right:0px;
+
+}
+.header-links {
+    /*background-color: blue;*/
+    margin: 20px;
+    color: white;
+    text-decoration: none;
+    padding: 4px;
+    font-size: 20px;
+}
+
+ .header-links:hover {
+        background-color: white;
+        color: black;
+ }
