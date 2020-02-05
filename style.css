@@ -65,17 +65,17 @@ body:hover{
 }
 .info-left-div h1 {
         margin-bottom: 0px;
-        font-size: 35px
+        font-size: 4em;
         /*line-height:0px;*/
 
    }
 .info-left-div h2 {
     margin-top: 5px;
-    font-size: 25px;
+    font-size: 3em;
     /*line-height:0px;*/
 }
 .info-left-div li {
-    font-size: 20px;
+    font-size: 3em;
     margin-bottom: 15px;
 }
 .info-right-div {
