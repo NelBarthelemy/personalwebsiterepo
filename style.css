@@ -2,7 +2,7 @@ body {
     /* background-color: rgb(54,48,48); */
     /* background-color: rgba(54,48,48,.3); */
     background-image: url(images/boston2.jpg);
-    background-size: cover;
+    background-size:cover;
     background-attachment:fixed;
     color: white;
     opacity:.3;
