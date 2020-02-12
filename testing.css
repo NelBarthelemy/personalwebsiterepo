@@ -1,0 +1,53 @@
+
+#back{
+  background-color:red;
+  padding:15px;
+  width:50%;
+  height:250px;
+
+  position:absolute;
+  top:0px;
+  left:20%;
+  overflow-x:hidden;
+}
+#back:hover{
+  overflow-x:scroll;
+}
+#left,#right,#middle{
+  text-align: center;
+  width:500px;
+  position:absolute;
+}
+#left{
+  background-color: blue;
+  left:100px
+
+}
+#middle{
+  left: 1100px;
+  background-color: white;
+}
+#right{
+  background-color: yellow;
+  left:2100px;
+}
+#test1{
+  background-color: yellow;
+  width:60%;
+  height:40%;
+  position:absolute;
+}
+#test1 a{
+  position: absolute;
+  bottom:0px;
+  text-decoration:none;
+}
+#left-link{
+  left:20%;
+}
+#middle-link{
+  left:45%;
+}
+#right-link{
+  left:70%;
+}

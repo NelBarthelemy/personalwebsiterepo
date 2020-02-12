@@ -1,0 +1,183 @@
+<<<<<<< HEAD:style.css
+body {
+    /* background-color: rgb(54,48,48); */
+    /* background-color: rgba(54,48,48,.3); */
+    background-image: url(images/boston2.jpg);
+    background-size:cover;
+    background-attachment:fixed;
+    color: white;
+    opacity:.3;
+}
+body:hover{
+     opacity:1;
+     /* background: rgba(54,48,48,0.2); */
+}
+
+#black{
+    /* background-color:darkslategrey; */
+    background-color:rgba(54,48,48,.6);
+    height:100%;
+    width:100%;
+    /* opacity:.7; */
+    position:fixed;
+    overflow:auto;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+#welcome-sign {
+    /*font-family: 'Franklin Gothic';*/
+    font-family: 'Monotype Corsiva';
+    font-size: 4em;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    color: white;
+    /*background-color:red;*/
+    width: 100%;
+}
+#init-info-div {
+    width: 80%;
+    height: 20%;
+    position: absolute;
+    top: 150%;
+    left: 8%;
+    height: 50%;
+    background-color: rgba(254, 44, 44, 0.95);
+    font-family: monospace;
+    border: 5px solid white;
+    opacity:.7;
+    margin-bottom:10%;
+}
+ #init-info-div:hover {
+        opacity:1;
+    }
+ .info-left-div, .info-right-div {
+        width: 50%;
+        height: 100%;
+        position: inherit;
+        background-color: rgba(254, 44, 44, 0.95);
+    }
+.info-left-div {
+    left: 2%;
+    float: left;
+    /*background-color: blue;*/
+    margin-left: 0px;
+}
+.info-left-div h1 {
+        margin-bottom: 0px;
+        font-size: 4em;
+        /*line-height:0px;*/
+
+   }
+.info-left-div h2 {
+    margin-top: 5px;
+    font-size: 3em;
+    /*line-height:0px;*/
+}
+.info-left-div li {
+    font-size: 3em;
+    margin-bottom: 15px;
+}
+.info-right-div {
+    width: 50%;
+    right: 0px;
+    float: right;
+    background-color: white;
+}
+.info-right-div img {
+    height:100%;
+    width:100%;
+}
+=======
+body {
+    /* background-color: rgb(54,48,48); */
+    /* background-color: rgba(54,48,48,.3); */
+    background-image: url(images/boston2.jpg);
+    background-size:cover;
+    background-attachment:fixed;
+    color: white;
+    opacity:.3;
+}
+body:hover{
+     opacity:1;
+     /* background: rgba(54,48,48,0.2); */
+}
+
+#black{
+    /* background-color:darkslategrey; */
+    background-color:rgba(54,48,48,.6);
+    height:100%;
+    width:100%;
+    /* opacity:.7; */
+    position:fixed;
+    overflow:auto;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+#welcome-sign {
+    /*font-family: 'Franklin Gothic';*/
+    font-family: 'Monotype Corsiva';
+    font-size: 4em;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    color: white;
+    /*background-color:red;*/
+    width: 100%;
+}
+#init-info-div {
+    width: 80%;
+    height: 20%;
+    position: absolute;
+    top: 150%;
+    left: 8%;
+    height: 50%;
+    background-color: rgba(254, 44, 44, 0.95);
+    font-family: monospace;
+    border: 5px solid white;
+    opacity:.7;
+    margin-bottom:10%;
+}
+ #init-info-div:hover {
+        opacity:1;
+    }
+ .info-left-div, .info-right-div {
+        width: 50%;
+        height: 100%;
+        position: inherit;
+        background-color: rgba(254, 44, 44, 0.95);
+    }
+.info-left-div {
+    left: 2%;
+    float: left;
+    /*background-color: blue;*/
+    margin-left: 0px;
+}
+.info-left-div h1 {
+        margin-bottom: 0px;
+        font-size: 35px
+        /*line-height:0px;*/
+
+   }
+.info-left-div h2 {
+    margin-top: 5px;
+    font-size: 25px;
+    /*line-height:0px;*/
+}
+.info-left-div li {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.info-right-div {
+    width: 50%;
+    right: 0px;
+    float: right;
+    background-color: white;
+}
+.info-right-div img {
+    height:100%;
+    width:100%;
+}
+>>>>>>> dbeb7818efd2684ff174fb3eaf4d7685d731ad36:main code/style.css
