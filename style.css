@@ -7,6 +7,9 @@ body {
     color: white;
     opacity:.3;
 }
+content{
+
+}
 body:hover{
      opacity:1;
      /* background: rgba(54,48,48,0.2); */
@@ -65,17 +68,17 @@ body:hover{
 }
 .info-left-div h1 {
         margin-bottom: 0px;
-        font-size: 4em;
+        font-size: 35px;
         /*line-height:0px;*/
 
    }
 .info-left-div h2 {
     margin-top: 5px;
-    font-size: 3em;
+    font-size: 25px;
     /*line-height:0px;*/
 }
 .info-left-div li {
-    font-size: 3em;
+    font-size: 20px;
     margin-bottom: 15px;
 }
 .info-right-div {
